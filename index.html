@@ -5,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="CSS/styles.css">
-    <script src="JS/script.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <!-- splash div -->
+    <div id="SplashScreen">
+            <h1>Game Title</h1>
+            <input id="StartButton" type="button" value="Start"/>
+            </div>
+            
+            <canvas id="GameCanvas" style="display: none;">Game Stuff</canvas>
+            
+            <script>
+                $("#StartButton").click(function () {
+                    $("#SplashScreen").hide();
+                    $("#GameCanvas").show();
+                });
+            </script>
+
+
+
     
+    <script src="JS/script.js"></script> 
 </body>
 </html>
