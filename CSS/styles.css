@@ -1,7 +1,16 @@
 body {
-    color: royalblue;
+    color: navy;
     text-align: center;
     font-size: italic;
     font-size: 50px;
+    background-color: lightblue;
+    background-image: url("giphy.gif");
+ }
+
+ #StartButton {
+     color: blue;
+     font-size: italic;
+     font-size: 30px;
+     background-color: lightgoldenrodyellow; 
  }
 
