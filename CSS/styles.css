@@ -4,7 +4,6 @@ body {
     font-size: italic;
     font-size: 50px;
     background-color: lightblue;
-    background-image: url("giphy.gif");
  }
 
  #StartButton {
@@ -12,5 +11,6 @@ body {
      font-size: italic;
      font-size: 30px;
      background-color: lightgoldenrodyellow; 
+
  }
 
