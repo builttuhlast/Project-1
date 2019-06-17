@@ -1,20 +1,12 @@
-// var gridWidth = 5;
-// var gridHeight = 6;
-// var grid = [];
-// for(var y = 0; y < gridHeight; y++)
-// {
-//     grid.push([]);
-//     for(var x = 0; x < gridWidth; x++)
-//     {
-//         grid[y].push(0);
-//     }
-// }
+//Welcome to Jeopardy. In order to play Jeopardy the user must select an amount from the topic of their choice from the game board. 
+//The user will be shown the riddle and will be given the option to enter an answer.
+//If the user answers the riddle correctly, the points will be added to the total points.
+//If the user answers the riddle incorrectly, the points will be deducted from the total points.
 
 
-$("#StartButton").click(function () {
-    $("#SplashScreen").hide();
-    $("#GameCanvas").show();
-    console.log("hello")
-});
 
 
+//function 
+// ****************************************************
+
+ // Provides the 'unique identifier' associated with each panel on the gameboard. Event listener on click into each gameboard panel
