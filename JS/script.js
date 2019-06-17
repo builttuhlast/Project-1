@@ -18,6 +18,16 @@ const category = {
         answers: ['August 4', 'Blessing', 'Hiroshima, Japan', 'University of Hawaii', 'August 4,1961'],
         scores: [100, 200, 300, 400, 500], 
     },
+
+
+    topic3: {
+        question: ['When did The Atlanta Falcons first go to the superbowl', 'Who is the best quarter back in the nfl', 'Who is the best WR in the NFL', 'Who is the best kicker of all time in the NFL', 'Who was born May 17, 1985'],
+        answers: ['1998', 'Tom Brady', 'Antonio Brown', 'Adam Vinatieri', 'Matt Ryan'],
+        scores: [100, 200, 300, 400, 500],
+    },
+
+
+    
 }
 
 
