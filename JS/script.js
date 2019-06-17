@@ -16,22 +16,30 @@ const category = {
     topic2: {
         question: ['Barack Obama Day', 'What does Barack mean', 'First sitting president to make this trip', 'Where did his parents meet', 'When is his birthday'],
         answers: ['August 4', 'Blessing', 'Hiroshima, Japan', 'University of Hawaii', 'August 4,1961'],
-        scores: [100, 200, 300, 400, 500], 
+        scores: [100, 200, 300, 400, 500] 
     },
 
 
     topic3: {
         question: ['When did The Atlanta Falcons first go to the superbowl', 'Who is the best quarter back in the nfl', 'Who is the best WR in the NFL', 'Who is the best kicker of all time in the NFL', 'Who was born May 17, 1985'],
         answers: ['1998', 'Tom Brady', 'Antonio Brown', 'Adam Vinatieri', 'Matt Ryan'],
-        scores: [100, 200, 300, 400, 500],
+        scores: [100, 200, 300, 400, 500]
     },
 
 
     topic4: {
         question: ['What fruit is made of 25% air', 'This vegetable is 91% water', 'Only edible food that does not go bad', 'What is the alcohol content in the strongest beer in the world', 'How many gallons of soda does the average American drink per year'],
         answers: ['Apples', 'Cabbage', 'Honey', '67.5%', '50 Gallons'],
-        scores: [100, 200, 300, 400, 500],
-    }
+        scores: [100, 200, 300, 400, 500]
+
+    },
+
+
+    topic5: {
+        question: ['A standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages', 'Cascading style sheets are used to format the layout of Web pages', 'Who was the first computer programmer', 'When was the first game created with code', 'When was the first computer bug identified'],
+        answers: ['HTML', 'CSS', 'Ada Lovelace', '1961', '1947'],
+        scores: [100, 200, 300, 400, 500]
+    },
 }
 
 
