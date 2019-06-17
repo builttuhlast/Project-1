@@ -14,8 +14,10 @@ const category = {
     },
 
     topic2: {
-        question: []
-    }
+        question: ['Barack Obama Day', 'What does Barack mean', 'First sitting president to make this trip', 'Where did his parents meet', 'When is his birthday'],
+        answers: ['August 4', 'Blessing', 'Hiroshima, Japan', 'University of Hawaii', 'August 4,1961'],
+        scores: [100, 200, 300, 400, 500], 
+    },
 }
 
 
