@@ -4,6 +4,20 @@
 //If the user answers the riddle incorrectly, the points will be deducted from the total points.
 
 
+//Here are arrays containing questions, answers for the questions, and the points for Jeopardy game
+
+const category = {
+    topic1: {
+        question: ['Happened September 1, 1939', 'Countries involved included: Germany, Netherlands, Luxembourg, Belgium', 'Prime Minister of Great Britain during WWII', 'legendary British leader who, according to medieval histories and romances, led the defence of Britain against Saxon invaders in the late 5th and early 6th centuries', 'guarded concrete barrier that physically and ideologically divided Berlin from 1961 to 1989'],
+        answers: ['Invasion of Poland', 'Phony War', 'Winston Churchill', 'King Arthur', 'The Berlin Wall'],
+        scores: [100, 200, 300, 400, 500] 
+    },
+
+    topic2: {
+        question: []
+    }
+}
+
 
 
 //function 
