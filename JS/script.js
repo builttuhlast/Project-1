@@ -27,7 +27,11 @@ const category = {
     },
 
 
-    
+    topic4: {
+        question: ['What fruit is made of 25% air', 'This vegetable is 91% water', 'Only edible food that does not go bad', 'What is the alcohol content in the strongest beer in the world', 'How many gallons of soda does the average American drink per year'],
+        answers: ['Apples', 'Cabbage', 'Honey', '67.5%', '50 Gallons'],
+        scores: [100, 200, 300, 400, 500],
+    }
 }
 
 
