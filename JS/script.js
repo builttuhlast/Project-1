@@ -65,11 +65,7 @@ $(".score").click(function (event) {
         // Find - convert - calculate index number for data arrays            
         let row = boardDetector.charAt(1) - 1
         let col = boardDetector.charAt(3) - 1
-        //Set a variable for qRs array elements so they can be compared to user submitted responses             
-        let response = categoryObj[pointCategory].questionResponses[row]
-        $('.simpleModal .ans').html(categoryObj[pointCategory].answers[row]);
-        $('.simpleModal .qR').html('What is...(submit your response below) ?');
-        modal.style.display = "block";
+       
         //Function to evaluates player's question-responses for correctness.
         $('#modalBtn').click(function () {
             let inputText = $('#ans').val().toLowerCase()
